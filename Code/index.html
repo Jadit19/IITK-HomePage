@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--If you are seeing this, then, congratulations! You have taken your first step on your journey to become a web developer!!-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <title>HOME</title>
+
+        <link rel="stylesheet" href="extras/style.css">
+        <link rel="stylesheet" href="extras/index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/jpg" href="extras/LOGO.png"/>
+        
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <button class="scroll-top" data-scroll="up" type="button">
+            <i class="fa fa-chevron-up"></i>
+        </button>
+        
+        <section class="header">
+            <nav class="navbar" id="top">
+                <div class="logo">
+                    <a href="" class="inside-header-link">
+                        <span style="font-weight: 700; cursor: default;">HOMEPAGE</span>
+                    </a>
+                </div>
+                <div class="main_list" id="navLinks">
+                    <i class="f fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li class="active"><a href=""><i class="fa fa-home"></i> HOME</a></li>
+                        <li class="inactive"><a href="resources.html"><i class="fa fa-folder"></i> RESOURCES</a></li>
+                        <li class="inactive"><a href="vt.html"><i class="fa fa-plane"></i> VIRTUAL TOUR</a></li>
+                        <li class="inactive"><a href="download.html"><i class="fa fa-download"></i> DOWNLOADS</a></li>
+                        <li class="inactive"><a href="contact.html"><i class="fa fa-address-book"></i> CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="f fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="ani">
+                <span class="text1">VENI, VIDI, VICI!!</span>
+                <span class="text2">
+                    Welcome to our Homepage! This Website is completely managed and operated by us. No templates were 
+                    used in the production of this website. It's been operational since March 18<sup>th</sup>, 2021. 
+                    Suggestions and Opinions are looked forward to and are welcomed whole-heartedly.<br><br>
+                    <a href="#main_content" style="text-decoration: none; color: white;">
+                        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                    </a>
+                </span>
+            </div>
+        </section>
+
+        <section class="main-content" id="main_content">
+            <h1 class="scroll-element js-scroll fade-in-bottom">Site Navigation</h1>
+            <p class="scroll-element js-scroll fade-in-bottom">
+                This is a modular website. It means that any part(s) of these websites can be taken out without affecting the others.<br>
+                In order to better help you navigate through this website, here is a little "guide" to our the website..<br>
+                Have FUN!! &#x1F604;
+            </p>
+
+            <div class="row">
+                <div class="content-col scroll-element js-scroll slide-left">
+                    <h3><i class="fa fa-folder"></i> Resources</h3>
+                    <p>
+                        Terribly sorry to break your bubble, but even during your time at college you will have to study. (and
+                         prepare for quizzes, midsems and endsems too..) So, to aid you during these "exams", your seniors 
+                        have compiled an extensive collection of books as well as previous year resources.
+                    </p>
+                    <a href="resources.html" class="primary-btn" id="link1">Resources</a>
+                </div>
+                <div class="content-col scroll-element js-scroll fade-in-bottom">
+                    <h3><i class="fa fa-plane"></i> Virtual Tour</h3>
+                    <p>
+                        This website was borne during the COVID-19 pandemic. Hence we were not able to visit the awesome IITK 
+                        campus. So, of course the only option left available to us was to visit it "virtually". Freshies, you 
+                        sure will enjoy this experience. What are you waiting for? Let's GO!
+                    </p>
+                    <a href="vt.html" class="primary-btn" id="link2">Virtual Tour</a>
+                </div>
+                <div class="content-col scroll-element js-scroll slide-right">
+                    <h3><i class="fa fa-download"></i> Downloads</h3>
+                    <p>
+                        During your stay at IITK, you will be exposed to a lot (and when I say a lot, I mean A LOT A LOT) 
+                        of digital work.  So, for your benefit, we have compiled a lot of links to the various 
+                        apps out there (some paid, some free) in one place. Happy learning!
+                    </p>
+                    <!--We had our entire first semister online.. So the our phones and loptops were 
+                    literally our best friends.-->
+                    <a href="download.html" class="primary-btn" id="link3">Downloads</a>
+                </div>
+            </div>
+            <p class="scroll-element js-scroll fade-in-bottom">
+                Please do let us know what how your experience was with this website!<br>
+                If you liked this website, do share it among your peers!<br>
+                Also, if you have any comments or suggestions, please let us know so that we can improve your browsing experience!
+            </p>
+            <a href="contact.html" class="primary-btn" id="link4">Contact Us!</a>
+        </section>
+        <br>
+        <section class="campus">
+            <h1 class="scroll-element js-scroll fade-in-bottom">Websites</h1>
+            <p class="scroll-element js-scroll fade-in-bottom">
+                Yes, uptil now, our only form of enjoyment in college has been through these 4 nightmare 
+                giving websites..
+            </p>
+            <div class="row">
+                <div class="campus-col-outer scroll-element js-scroll slide-left">
+                    <h3>IITK WEBSITE</h3>
+                    <hr>
+                    <div class="campus-col">
+                        <img src="extras/IITKWebsite.png">
+                        <div class="layer">
+                            <h3>IITK Website</h3>
+                        </div>
+                    </div>
+                    <p style="padding: 20px;">The Official IIT KANPUR Website. Provides information on latest news, events and Faculty schedules.</p>
+                    <a href="https://www.iitk.ac.in/" class="secondary-btn" id="link5" target="_blank">Visit Website</a>
+                </div>
+                <div class="campus-col-outer scroll-element js-scroll slide-right">
+                    <h3>PINGALA</h3>
+                    <hr>
+                    <div class="campus-col">
+                        <img src="extras/Pingala.png">
+                        <div class="layer">
+                            <h3>Pingala</h3>
+                        </div>
+                    </div>
+                    <p style="padding: 20px;">The Pingala Portal is used to attend to the administrative requirements of both 
+                    faculty and students alike. Also, you can browse throught the IITK Library online here.</p>
+                    <a href="https://pingala.iitk.ac.in/IITK-0/login" class="secondary-btn" id="link6" target="_blank">Visit Website</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="campus-col-outer scroll-element js-scroll slide-left">
+                    <h3>HELLOIITK</h3>
+                    <hr>
+                    <div class="campus-col">
+                        <img src="extras/HelloIITK.png">
+                        <div class="layer">
+                            <h3>HelloIITK</h3>
+                        </div>
+                    </div>
+                    <p style="padding: 20px;">This website is used to send student video lectures of the course and also assignments, quizzes and tests.</p>
+                    <a href="https://hello.iitk.ac.in/" class="secondary-btn" id="link7" target="_blank">Visit Website</a>
+                </div>
+                <div class="campus-col-outer scroll-element js-scroll slide-right">
+                    <h3>SAP</h3>
+                    <hr>
+                    <div class="campus-col">
+                        <img src="extras/SAP.png">
+                        <div class="layer">
+                            <h3>SAP</h3>
+                        </div>
+                    </div>
+                    <p style="padding: 20px;">The Student Academic Portal is basically the Academic Version of Pingala Portal. 
+                    This is also used to conduct the General Elections and various other similar tasks</p>
+                    <a href="https://oag.iitk.ac.in/studiitk/" class="secondary-btn" id="link7" target="_blank">Visit Website</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2021 <font style="font-weight: 500;">|</font> Adit Jain <font style="font-weight: 500;">|</font> Sunreet Khanna
+        </footer>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            var top_nav = document.getElementById("top");
+            function showMenu(){
+                top_nav.style.height = "100%";
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                top_nav.style.height = "65px";
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <script>
+            $(window).scroll(function() {
+                var t = ((window.screen.height)*25/100);
+                if ($(document).scrollTop() > t) {           /*window.screen.height*/
+                    $('.navbar').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.navbar').removeClass('affix');
+                }
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 100) {
+                        $('.scroll-top').fadeIn();
+                    }
+                    else {
+                        $('.scroll-top').fadeOut();
+                    }
+                });
+
+                $('.scroll-top').click(function() {
+                    $("html, body").animate({
+                        scrollTop: 0
+                    }, 400);
+                    return false;
+                });
+            });
+        </script>
+        <script>
+            const scrollElements = document.querySelectorAll(".js-scroll");
+
+            const elementInView = (el, dividend = 1) => {
+                const elementTop = el.getBoundingClientRect().top;
+
+                return (
+                    elementTop <=
+                    (window.innerHeight || document.documentElement.clientHeight) / dividend
+                );
+            };
+
+            const elementOutofView = (el) => {
+                const elementTop = el.getBoundingClientRect().top;
+
+                return (
+                    elementTop > (window.innerHeight || document.documentElement.clientHeight)
+                );
+            };
+
+            const displayScrollElement = (element) => {
+                element.classList.add("scrolled");
+            };
+
+            const hideScrollElement = (element) => {
+                element.classList.remove("scrolled");
+            };
+
+            const handleScrollAnimation = () => {
+                scrollElements.forEach((el) => {
+                    if (elementInView(el, 1.25)) {
+                        displayScrollElement(el);
+                    } else if (elementOutofView(el)) {
+                        hideScrollElement(el)
+                    }
+                })
+            }
+
+            window.addEventListener("scroll", () => { 
+                handleScrollAnimation();
+            });
+        </script>
+    </body>
+</html>

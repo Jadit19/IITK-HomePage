@@ -1,0 +1,180 @@
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.40), rgba(4, 9, 30, 0.40)), url(vt-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+@media (min-width: 1000px) {
+    .header{
+        animation: header-bg-animate 2s ease-in-out;
+    }
+}
+
+@keyframes header-bg-animate {
+    0%{
+        background-image: linear-gradient(black, black);
+    }
+    70%{
+        background-image: linear-gradient(black, black);
+    }
+    72%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.96), rgba(4, 9, 30, 0.96)), url(vt-bg.jpg);
+    }
+    74%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.92), rgba(4, 9, 30, 0.92)), url(vt-bg.jpg);
+    }
+    76%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.88), rgba(4, 9, 30, 0.88)), url(vt-bg.jpg);
+    }
+    78%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.84), rgba(4, 9, 30, 0.84)), url(vt-bg.jpg);
+    }
+    80%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.80), rgba(4, 9, 30, 0.80)), url(vt-bg.jpg);
+    }
+    82%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.76), rgba(4, 9, 30, 0.76)), url(vt-bg.jpg);
+    }
+    84%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.72), rgba(4, 9, 30, 0.72)), url(vt-bg.jpg);
+    }
+    86%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.68), rgba(4, 9, 30, 0.68)), url(vt-bg.jpg);
+    }
+    88%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.64), rgba(4, 9, 30, 0.64)), url(vt-bg.jpg);
+    }
+    90%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.60), rgba(4, 9, 30, 0.60)), url(vt-bg.jpg);
+    }
+    92%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.56), rgba(4, 9, 30, 0.56)), url(vt-bg.jpg);
+    }
+    94%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.52), rgba(4, 9, 30, 0.52)), url(vt-bg.jpg);
+    }
+    96%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.48), rgba(4, 9, 30, 0.48)), url(vt-bg.jpg);
+    }
+    98%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.44), rgba(4, 9, 30, 0.44)), url(vt-bg.jpg);
+    }
+    100%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.40), rgba(4, 9, 30, 0.40)), url(vt-bg.jpg);
+    }
+}
+
+.main-content{
+    background-color: #fff3f3;
+    margin-top: 30px;
+    padding-top: 60px;
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+}
+
+.subject-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    cursor: default;
+    position: relative;
+}
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    position: relative;
+    background-color: rgba(225, 249, 255, 0.7);
+}
+
+.video-container{
+    position:relative;
+    width:100%;
+    padding-bottom: 56.25%;
+    height:0;
+}
+.video-container iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+
+div.gallery {
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.shadow-effect:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s; /* Animation */
+    background-color: transparent;
+    overflow: hidden;
+}
+div.gallery img:hover{
+    transform: scale(1.35);
+}
+
+div.desc {
+    margin-bottom: -1px;
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    padding: 0px;
+    text-align: center;
+    color:black;
+    background: white;
+    border: 1px solid black;
+    justify-content: center;
+    justify-items: center;
+    overflow: hidden;
+}
+
+.center{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container > div {
+    background-color: transparent;
+    width: 27%;
+    min-width: 280px;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+    line-height: auto;
+    font-size: 30px;
+}
+.scroll-element{
+    overflow: hidden;
+}

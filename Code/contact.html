@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--If you are seeing this, then, congratulations! You have taken your first step on your journey to become a web developer!!-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <title>CONTACT US!</title>
+
+        <link rel="stylesheet" href="extras/style.css">
+        <link rel="stylesheet" href="extras/contact.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/jpg" href="extras/LOGO.png"/>
+        
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <button class="scroll-top" data-scroll="up" type="button">
+            <i class="fa fa-chevron-up"></i>
+        </button>
+
+        <section class="header">
+            <nav class="navbar" id="top">
+                <div class="logo">
+                    <a href="index.html" class="inside-header-link">
+                        <span style="font-weight: 700; cursor: default;">HOMEPAGE</span>
+                    </a>
+                </div>
+                <div class="main_list" id="navLinks">
+                    <i class="f fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li class="inactive"><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+                        <li class="inactive"><a href="resources.html"><i class="fa fa-folder"></i> RESOURCES</a></li>
+                        <li class="inactive"><a href="vt.html"><i class="fa fa-plane"></i> VIRTUAL TOUR</a></li>
+                        <li class="inactive"><a href="download.html"><i class="fa fa-download"></i> DOWNLOADS</a></li>
+                        <li class="active"><a href=""><i class="fa fa-address-book"></i> CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="f fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="ani">
+                <span class="text1">ABOUT US..</span>
+                <span class="text2">
+                    This website started out as a side-project which soon turned into passion. Through this website, we 
+                    aim to attract people towards the art of web-development as well as welcome new students to IITK!<br><br>
+                    <a href="#main_content" style="text-decoration: none; color: white;">
+                        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                    </a>
+                </span>
+            </div>
+        </section>
+
+        <section class="main-content" id="main_content">
+            <h1 class="scroll-element js-scroll fade-in-bottom">Get to Know us:</h1>
+            <p class="scroll-element js-scroll fade-in-bottom">
+                As stated above and at the homepage, this website was created using the most basic, yet powerful languages 
+                like HTML5, CSS3 and JavaScript (a little jQuery too). We have used these in this website but there is still a lot more to learn! 
+            </p>
+            <div class="adit">
+                <div class="col1 scroll-element js-scroll slide-left">
+                    <img src="dp.jpg" class="inside-image">
+                </div>
+                <div class="col2 scroll-element js-scroll slide-right">
+                    <h6>ADIT JAIN</h6>
+                    <p class="inside-div">Hi! I am Adit, a Y20 (freshman undergraduate) DLP (Distance Learning Programme) at IITK. I'm a passsionate 
+                        web developer and a junior member of Team Aerial Robotics. Contact Me:</p>
+                    <div class="flex-container">
+                        <div><a target="_blank" href="https://github.com/Jadit19"><i class="fa fa-github ic"></i></a></div>
+                        <div><a target="_blank" href="https://www.facebook.com/adit.jain.1675/"><i class="fa fa-facebook-official ic"></i></a></div>
+                        <div><a target="_blank" href="https://www.instagram.com/jadit_19/"><i class="fa fa-instagram ic"></i></a></div>
+                        <div><a target="_blank" href="https://www.linkedin.com/in/adit-jain-658481b9?trk=people-guest_people_search-card"><i class="fa fa-linkedin-square ic"></i></a></div>
+                        <div><a target="_blank" href="mailto: aditj20@iitk.ac.in"><i class="fa fa-envelope ic"></i></a></div>
+                    </div>
+                    <div class="btn-div">
+                        <a href="#talk">Let's Talk!&nbsp;&nbsp;<i class="fa fa-long-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="sunreet">
+                <div class="col1 scroll-element js-scroll slide-left">
+                    <img src="extras/Sunreet.jpeg" class="inside-image">
+                </div>
+                <div class="col2 scroll-element js-scroll slide-right">
+                    <h6>SUNREET KHANNA</h6>
+                    <p class="inside-div">
+                        Hi! I am Sunreet Khanna, a Y20 (freshman undergraduate) DLP at IITK. I'm also a Project Member in Stamatics Club. Contact Me:
+                    </p>
+                    <div class="flex-container">
+                        <div><a target="_blank" href="https://github.com/SunreetKhanna"><i class="fa fa-github ic"></i></a></div>
+                        <div><a target="_blank" href="https://www.facebook.com/sunreet.khanna/"><i class="fa fa-facebook-official ic"></i></a></div>
+                        <div><a target="_blank" href="https://www.instagram.com/sunreetkhanna23/"><i class="fa fa-instagram ic"></i></a></div>
+                        <div><a target="_blank" href="https://www.linkedin.com/in/sunreet-khanna-658955201/"><i class="fa fa-linkedin-square ic"></i></a></div>
+                        <div><a target="_blank" href="mailto: sunreetk20@iitk.ac.in"><i class="fa fa-envelope ic"></i></a></div>
+                    </div>
+                    <div class="btn-div">
+                        <a href="#talk">Let's Talk!&nbsp;&nbsp;<i class="fa fa-long-arrow-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="talk">
+            <h1 class="scroll-element js-scroll fade-in-bottom">CONTACT US</h1>
+            <p class="scroll-element js-scroll fade-in-bottom">
+                Let's get to know eack other a bit better!<br>
+                Your Feedback helps us improve!<br>
+                (Your comment will be updated below within 24hrs.)
+            </p>
+            <form method="POST" action="" name="google-sheet">
+                <div class="main-box">
+                    <div class="flex-container-form">
+                        <div class="flex-div1 scroll-element js-scroll slide-right">
+                            <div class="inputBox">
+                                <input type="text" name="FirstName" id="FirstName" autocomplete="off" required>
+                                <label for="FirstName">First Name</label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="text" name="LastName" id="LastName" autocomplete="off" required>
+                                <label for="LastName">Last Name</label>
+                            </div>
+                            <div class="inputBox">
+                                <input type="email" name="Email" id="Email" autocomplete="off" required>
+                                <label for="Email">Email ID</label>
+                            </div>
+                        </div>
+                        <div class="flex-div2 scroll-element js-scroll slide-left">
+                            <div class="inputBox">
+                                <input style="padding-top: 60px;" type="text" name="Message" id="Message" autocomplete="off" required>
+                                <label for="Message">Message</label>
+                            </div>
+                            <div class="input-box">
+                                <div class="slidecontainer">
+                                    <p style="font-weight: 700; color: #000; text-align: left;">On a scale of 1-100, how would you rate our website?</p>
+                                    <input type="range" min="1" max="100" value="50" class="slider-form" id="myRange" name="myRange" required>
+                                    <p>Likeness Index: <span id="demo"></span>%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-btn">
+                        <input type="submit" value="Submit" style="margin-right: 10px;">
+                        <input type="reset" value="Reset">
+                    </div>
+                </div>
+            </form>
+            <div class="github-btn-div">
+                <button class="github-btn"><a target="_blank" href="https://github.com/Jadit19/IITK-HomePage">View Repository on Github</a></button>
+            </div>
+        </section>
+
+        <section class="responses">
+            <h1 class="scroll-element js-scroll fade-in-bottom">COMMENTS</h1>
+            <p class="scroll-element js-scroll fade-in-bottom">
+                Your comments are priceless. Thank you so much to each and every one of you!<br>
+                Your latest comment will be displayed here.
+            </p>
+            <div class="responses-main-div scroll-element js-scroll fade-in-bottom">
+                <div class="main-responses">
+                    <div class="card">
+                        <h4>Harshul Midha</h4>
+                        <p>Bhai mauj kardi, chaapa bhai chaapa!!</p>
+                        <div class="cover">
+                            <div class="ratings">
+                                Rating Given:<br>
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Sai Pradhan</h4>
+                        <p>Adobe lightroom classic bhi add karle.</p>
+                        <div class="cover">
+                            <div class="ratings">
+                                Rating Given:<br>
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Sourav Anand</h4>
+                        <p>Op bhai op !!  Big fan bro!!</p>
+                        <div class="cover">
+                            <div class="ratings">
+                                Rating Given:<br>
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-bottom: 10px;">
+                        <h4>Siddhartha Prakash</h4>
+                        <p>May you reach pinnacle of success!</p>
+                        <div class="cover">
+                            <div class="ratings">
+                                Rating Given:<br>
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            &copy; 2021 <font style="font-weight: 500;">|</font> Adit Jain <font style="font-weight: 500;">|</font> Sunreet Khanna
+        </footer>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            var top_nav = document.getElementById("top");
+            function showMenu(){
+                top_nav.style.height = "100%";
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                top_nav.style.height = "65px";
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <script>
+            $(window).scroll(function() {
+                var t = ((window.screen.height)*25/100);
+                if ($(document).scrollTop() > t) {           /*window.screen.height*/
+                    $('.navbar').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.navbar').removeClass('affix');
+                }
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 100) {
+                        $('.scroll-top').fadeIn();
+                    }
+                    else {
+                        $('.scroll-top').fadeOut();
+                    }
+                });
+
+                $('.scroll-top').click(function() {
+                    $("html, body").animate({
+                        scrollTop: 0
+                    }, 400);
+                    return false;
+                });
+            });
+        </script>
+        <script>
+            const scrollElements = document.querySelectorAll(".js-scroll");
+
+            const elementInView = (el, dividend = 1) => {
+                const elementTop = el.getBoundingClientRect().top;
+
+                return (
+                    elementTop <=
+                    (window.innerHeight || document.documentElement.clientHeight) / dividend
+                );
+            };
+
+            const elementOutofView = (el) => {
+                const elementTop = el.getBoundingClientRect().top;
+
+                return (
+                    elementTop > (window.innerHeight || document.documentElement.clientHeight)
+                );
+            };
+
+            const displayScrollElement = (element) => {
+                element.classList.add("scrolled");
+            };
+
+            const hideScrollElement = (element) => {
+                element.classList.remove("scrolled");
+            };
+
+            const handleScrollAnimation = () => {
+                scrollElements.forEach((el) => {
+                    if (elementInView(el, 1.25)) {
+                        displayScrollElement(el);
+                    } else if (elementOutofView(el)) {
+                        hideScrollElement(el)
+                    }
+                })
+            }
+
+            window.addEventListener("scroll", () => { 
+                handleScrollAnimation();
+            });
+        </script>
+        <script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+            
+            slider.oninput = function() {
+                output.innerHTML = this.value;
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxcJgRucTGDvVuTDIqUnLpqFd75eIW-mXr-K3Lg9O0ogaC7ukQ/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Thanks for Contacting us! We'll get back to you soon!"))
+                .catch(error => console.error('This service may be temporarily down, please try again later.', error.message))
+            })
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--If you are seeing this, then, congratulations! You have taken your first step on your journey to become a web developer!!-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <title>VIRTUAL TOUR</title>
+
+        <link rel="stylesheet" href="extras/style.css">
+        <link rel="stylesheet" href="extras/vt.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/jpg" href="extras/LOGO.png"/>
+        
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <button class="scroll-top" data-scroll="up" type="button">
+            <i class="fa fa-chevron-up"></i>
+        </button>
+
+        <section class="header">
+            <nav class="navbar" id="top">
+                <div class="logo">
+                    <a href="index.html" class="inside-header-link">
+                        <span style="font-weight: 700; cursor: default;">HOMEPAGE</span>
+                    </a>
+                </div>
+                <div class="main_list" id="navLinks">
+                    <i class="f fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li class="inactive"><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+                        <li class="inactive"><a href="resources.html"><i class="fa fa-folder"></i> RESOURCES</a></li>
+                        <li class="active"><a href=""><i class="fa fa-plane"></i> VIRTUAL TOUR</a></li>
+                        <li class="inactive"><a href="download.html"><i class="fa fa-download"></i> DOWNLOADS</a></li>
+                        <li class="inactive"><a href="contact.html"><i class="fa fa-address-book"></i> CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="f fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="ani">
+                <span class="text1">VIRTUAL TOUR</span>
+                <span class="text2">
+                    Since we were not able to physically visit our college in the first year, the only option available 
+                    to us was to visit it virtually. Hence, for all the freshies out there, here's an awesome experience 
+                    of your college.<br><br>
+                    <a href="#main_content" style="text-decoration: none; color: white;">
+                        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                    </a>
+                </span>
+            </div>
+        </section>
+
+        <section class="main-content" style="overflow-y: hidden;" id="main_content">
+            <h1 class="scroll-element js-scroll slide-left">Introductory Video <i class="fa fa-video-camera"></i></h1>
+            <p class="scroll-element js-scroll slide-right">
+                First up, we have an Official Campous Tour Video posted on YouTube by Counselling Service, IITK:
+            </p><br>
+            <div class="video-container scroll-element js-scroll fade-in-bottom">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1Ks1pEnJSfc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div><br>
+        </section>
+        <br>
+        <section class="campus">
+            <h1 class="scroll-element js-scroll fade-in-bottom">Google Maps <i class="fa fa-map-marker"></i></h1>
+            <p class="scroll-element js-scroll fade-in-bottom">
+                Next up, click on any of the following images to experience the <b>street view</b> of that place:
+            </p><br>
+
+            <div class="flex-container" style="overflow-y: hidden;">
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.5119567,80.2341316,3a,75y,94.32h,90t/data=!3m8!1e1!3m6!1sAF1QipMistn8sHXINGAUx7axwqqy08gY6W6Ru-DYuDpl!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMistn8sHXINGAUx7axwqqy08gY6W6Ru-DYuDpl%3Dw203-h100-k-no-pi-0-ya199.82042-ro0-fo100!7i6144!8i3072" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/CCD.jpeg" alt="Cafe Coffee Day">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">CCD</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.5195141,80.2323456,3a,75y,158.36h,95.2t/data=!3m8!1e1!3m6!1sAF1QipN9C7b9yLwtxtHn7_yhdHUBKRWs3RZQZFmSSt2f!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN9C7b9yLwtxtHn7_yhdHUBKRWs3RZQZFmSSt2f%3Dw203-h100-k-no-pi-0-ya144.03442-ro0-fo100!7i7168!8i3584" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/AS.png" alt="Air Strip" class="as">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">AIR STRIP</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.5146274,80.2312208,3a,75y,97.28h,90t/data=!3m8!1e1!3m6!1sAF1QipP5wtaeCm4m2e_v4IyEivgMAZBzPDlvUohJAJVo!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipP5wtaeCm4m2e_v4IyEivgMAZBzPDlvUohJAJVo%3Dw203-h100-k-no-pi-0-ya82.51507-ro-0-fo100!7i6144!8i3072" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/DOAA.jpeg" alt="DOAA Office">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">DOAA OFFICE</button>
+                        </div>
+                    </a>
+                </div>  
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.5079781,80.2275264,3a,75y,117.56h,100.09t/data=!3m8!1e1!3m6!1sAF1QipPlkVfWNdjbJEkd2532gsDxCAPWk4sfQIz0caYP!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPlkVfWNdjbJEkd2532gsDxCAPWk4sfQIz0caYP%3Dw203-h100-k-no-pi-0-ya228.65735-ro0-fo100!7i6144!8i3072" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/Triangle.jpeg" alt="Triangle Ground">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">TRIANGLE GROUND</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.504768,80.2295762,3a,90y,30.81h,83.08t/data=!3m8!1e1!3m6!1sAF1QipMY0GDDZvVzumuKOKYn3tBf7h2M7uUjSYWio_y6!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMY0GDDZvVzumuKOKYn3tBf7h2M7uUjSYWio_y6%3Dw203-h100-k-no-pi-0-ya132.86217-ro0-fo100!7i4000!8i2000" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/SAC.jpeg" alt="Student Activity Center">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">SAC</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.5092517,80.2332991,3a,90y,13.13h,102.92t/data=!3m8!1e1!3m6!1sAF1QipNjppLq0jOM5YzD_rP64rsaWX1y4Jw5ClUmUybf!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNjppLq0jOM5YzD_rP64rsaWX1y4Jw5ClUmUybf%3Dw203-h100-k-no-pi0-ya333.82825-ro-0-fo100!7i6144!8i3072" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/Stadium.jpeg" alt="Stadium" class="as">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">STADIUM</button>
+                        </div>
+                    </a>
+                </div>  
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.5122215,80.2339007,3a,75y,1.85h,90.45t/data=!3m8!1e1!3m6!1sAF1QipNFa5Ij0Kt9dd_5mIYqWulJOmxZvgN_1OAt4y8C!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNFa5Ij0Kt9dd_5mIYqWulJOmxZvgN_1OAt4y8C%3Dw203-h100-k-no-pi-0-ya171.06743-ro-0-fo100!7i4000!8i2000" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/Lib.jpeg" alt="P. K. Kelkar Library">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">LIBRARY</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.5095384,80.2312341,3a,90y,190.85h,95.41t/data=!3m8!1e1!3m6!1sAF1QipPCF1pz6aC7W6_DtFnXLMf2jOLQ0amA9d8U6Z0!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPCF1pz6aC7W6_DtFnXLMf2jOLQ0amA9d8U6Z0%3Dw203-h100-k-no-pi-0-ya44.888393-ro-0-fo100!7i6656!8i3328" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/H1.jpeg" alt="Hall 1" class="as">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">HALL 1</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.510661,80.229692,3a,75y,18.39h,106.22t/data=!3m8!1e1!3m6!1sAF1QipNz6c0NPEArKZZwqhIImVDkW7MvafMb6G9yhx2H!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNz6c0NPEArKZZwqhIImVDkW7MvafMb6G9yhx2H%3Dw203-h100-k-no-pi-0-ya298.2941-ro0-fo100!7i3840!8i1919" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/H2.jpeg" alt="Hall 2">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">HALL 2</button>
+                        </div>
+                    </a>
+                </div>  
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.5069157,80.2282973,3a,75y,223.11h,93.51t/data=!3m8!1e1!3m6!1sAF1QipMxOai5kG1UvqZPfE7QzurSSE5rbnsPdueQFVoY!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMxOai5kG1UvqZPfE7QzurSSE5rbnsPdueQFVoY%3Dw203-h100-k-no-pi-0-ya229.51859-ro0-fo100!7i10752!8i3548" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/H7.jpeg" alt="Hall 7">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">HALL 7</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.5081062,80.2266006,3a,90y,132.01h,99.2t/data=!3m8!1e1!3m6!1sAF1QipPRVIqZvayiUgE0kWskH1znWH6VLi6VGlvroVVz!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPRVIqZvayiUgE0kWskH1znWH6VLi6VGlvroVVz%3Dw203-h100-k-no-pi-0-ya307.8299-ro0-fo100!7i9216!8i3820" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/H9.jpeg" alt="Hall 9" class="as">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">HALL 9</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.506515,80.226374,3a,75y,271.04h,77.52t/data=!3m8!1e1!3m6!1sAF1QipNy3qcAwGCyAWN11hrlr_arLqQYBVnHhqXIWmfs!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNy3qcAwGCyAWN11hrlr_arLqQYBVnHhqXIWmfs%3Dw203-h100-k-no-pi0-ya309.10367-ro-0-fo100!7i4608!8i2304" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/H10.jpeg" alt="Hall 10">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">HALL 10</button>
+                        </div>
+                    </a>
+                </div>
+                <div class="scroll-element js-scroll fade-in-bottom shadow-effect">
+                    <a target="_blank" href="https://www.google.com/maps/@26.504815,80.2261657,3a,75y,333.68h,84t/data=!3m8!1e1!3m6!1sAF1QipMGHyK4W4z70ln9cqJm1Eme7ddpb2CE66dI4ywO!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMGHyK4W4z70ln9cqJm1Eme7ddpb2CE66dI4ywO%3Dw203-h100-k-no-pi-0-ya212.23651-ro0-fo100!7i6144!8i3072" style="color:#000; text-decoration:none;">
+                        <div class="gallery">                            
+                            <img src="extras/H11.jpeg" alt="Hall 11">
+                        </div>
+                        <div class="desc">
+                            <button class="btn-stylish fourth">HALL 11</button>
+                        </div>
+                    </a>
+                </div> 
+            </div>
+
+            <p>
+                If you have ideas for more locations at IITK, do let us know!
+            </p>
+            <a href="contact.html" class="primary-btn" id="link10">Contact Us!</a>
+        </section><br>
+        
+        <footer>
+            &copy; 2021 <font style="font-weight: 500;">|</font> Adit Jain <font style="font-weight: 500;">|</font> Sunreet Khanna
+        </footer>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            var top_nav = document.getElementById("top");
+            function showMenu(){
+                top_nav.style.height = "100%";
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                top_nav.style.height = "65px";
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <script>
+            $(window).scroll(function() {
+                var t = ((window.screen.height)*25/100);
+                if ($(document).scrollTop() > t) {           /*window.screen.height*/
+                    $('.navbar').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.navbar').removeClass('affix');
+                }
+            });
+        </script>
+        <script>
+            $(document).ready(function() {
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 100) {
+                        $('.scroll-top').fadeIn();
+                    }
+                    else {
+                        $('.scroll-top').fadeOut();
+                    }
+                });
+
+                $('.scroll-top').click(function() {
+                    $("html, body").animate({
+                        scrollTop: 0
+                    }, 400);
+                    return false;
+                });
+            });
+        </script>
+        <script>
+            const scrollElements = document.querySelectorAll(".js-scroll");
+
+            const elementInView = (el, dividend = 1) => {
+                const elementTop = el.getBoundingClientRect().top;
+
+                return (
+                    elementTop <=
+                    (window.innerHeight || document.documentElement.clientHeight) / dividend
+                );
+            };
+
+            const elementOutofView = (el) => {
+                const elementTop = el.getBoundingClientRect().top;
+
+                return (
+                    elementTop > (window.innerHeight || document.documentElement.clientHeight)
+                );
+            };
+
+            const displayScrollElement = (element) => {
+                element.classList.add("scrolled");
+            };
+
+            const hideScrollElement = (element) => {
+                element.classList.remove("scrolled");
+            };
+
+            const handleScrollAnimation = () => {
+                scrollElements.forEach((el) => {
+                    if (elementInView(el, 1.25)) {
+                        displayScrollElement(el);
+                    } else if (elementOutofView(el)) {
+                        hideScrollElement(el)
+                    }
+                })
+            }
+
+            window.addEventListener("scroll", () => { 
+                handleScrollAnimation();
+            });
+        </script>
+    </body>
+</html>

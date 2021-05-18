@@ -1,0 +1,128 @@
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.40), rgba(4, 9, 30, 0.40)), url(downloads-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+@media (min-width: 1000px) {
+    .header{
+        animation: header-bg-animate 2s ease-in-out;
+    }
+}
+
+@keyframes header-bg-animate {
+    0%{
+        background-image: linear-gradient(black, black);
+    }
+    70%{
+        background-image: linear-gradient(black, black);
+    }
+    72%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.96), rgba(4, 9, 30, 0.96)), url(downloads-bg.jpeg);
+    }
+    74%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.92), rgba(4, 9, 30, 0.92)), url(downloads-bg.jpeg);
+    }
+    76%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.88), rgba(4, 9, 30, 0.88)), url(downloads-bg.jpeg);
+    }
+    78%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.84), rgba(4, 9, 30, 0.84)), url(downloads-bg.jpeg);
+    }
+    80%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.80), rgba(4, 9, 30, 0.80)), url(downloads-bg.jpeg);
+    }
+    82%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.76), rgba(4, 9, 30, 0.76)), url(downloads-bg.jpeg);
+    }
+    84%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.72), rgba(4, 9, 30, 0.72)), url(downloads-bg.jpeg);
+    }
+    86%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.68), rgba(4, 9, 30, 0.68)), url(downloads-bg.jpeg);
+    }
+    88%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.64), rgba(4, 9, 30, 0.64)), url(downloads-bg.jpeg);
+    }
+    90%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.60), rgba(4, 9, 30, 0.60)), url(downloads-bg.jpeg);
+    }
+    92%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.56), rgba(4, 9, 30, 0.56)), url(downloads-bg.jpeg);
+    }
+    94%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.52), rgba(4, 9, 30, 0.52)), url(downloads-bg.jpeg);
+    }
+    96%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.48), rgba(4, 9, 30, 0.48)), url(downloads-bg.jpeg);
+    }
+    98%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.44), rgba(4, 9, 30, 0.44)), url(downloads-bg.jpeg);
+    }
+    100%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.40), rgba(4, 9, 30, 0.40)), url(downloads-bg.jpeg);
+    }
+}
+
+.main-content{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+ol li.in_this{
+    list-style-type: upper-roman;
+}
+h5{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.ave, .collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.ave:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: rgba(132, 255, 132, 0.5);
+    text-align: left;
+    border-radius: 10px;
+}
+
+a.g{
+    text-decoration: none;
+    color: blue;
+}
+a.g:hover{
+    color:red;
+}

@@ -1,0 +1,164 @@
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.40), rgba(4, 9, 30, 0.40)), url(home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+@media (min-width: 1000px) {
+    .header{
+        animation: header-bg-animate 2s ease-in-out;
+    }
+}
+
+@keyframes header-bg-animate {
+    0%{
+        background-image: linear-gradient(black, black);
+    }
+    70%{
+        background-image: linear-gradient(black, black);
+    }
+    72%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.96), rgba(4, 9, 30, 0.96)), url(home-bg.jpg);
+    }
+    74%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.92), rgba(4, 9, 30, 0.92)), url(home-bg.jpg);
+    }
+    76%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.88), rgba(4, 9, 30, 0.88)), url(home-bg.jpg);
+    }
+    78%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.84), rgba(4, 9, 30, 0.84)), url(home-bg.jpg);
+    }
+    80%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.80), rgba(4, 9, 30, 0.80)), url(home-bg.jpg);
+    }
+    82%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.76), rgba(4, 9, 30, 0.76)), url(home-bg.jpg);
+    }
+    84%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.72), rgba(4, 9, 30, 0.72)), url(home-bg.jpg);
+    }
+    86%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.68), rgba(4, 9, 30, 0.68)), url(home-bg.jpg);
+    }
+    88%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.64), rgba(4, 9, 30, 0.64)), url(home-bg.jpg);
+    }
+    90%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.60), rgba(4, 9, 30, 0.60)), url(home-bg.jpg);
+    }
+    92%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.56), rgba(4, 9, 30, 0.56)), url(home-bg.jpg);
+    }
+    94%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.52), rgba(4, 9, 30, 0.52)), url(home-bg.jpg);
+    }
+    96%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.48), rgba(4, 9, 30, 0.48)), url(home-bg.jpg);
+    }
+    98%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.44), rgba(4, 9, 30, 0.44)), url(home-bg.jpg);
+    }
+    100%{
+        background-image: linear-gradient(rgba(4, 9, 30, 0.40), rgba(4, 9, 30, 0.40)), url(home-bg.jpg);
+    }
+}
+
+.main-content{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.row{
+    padding-top: 3%;
+}
+.content-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding-top: 20px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 0px #fff;
+    transition: 0.3s;
+    cursor: default;
+    position: relative;
+}
+.content-col:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col-outer{
+    flex-basis: 47%;
+    background-color: rgb(225, 249, 255);
+    border-radius: 10px;
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+    transition: 0.3s;
+}
+.campus-col-outer:hover{
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgba(18, 206, 1, 0.6);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 700;
+    color: #fff;
+    font-size: 26px;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    top: 50%;
+    opacity: 1;
+}
+
+hr{
+    margin-bottom: 2%;
+    color: black;
+    background: black;
+    border: 0.5px solid black;
+}
